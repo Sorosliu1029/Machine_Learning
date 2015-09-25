@@ -7,10 +7,10 @@
 %  linear exercise. You will need to complete the following functions 
 %  in this exericse:
 %
-%     warmUpExercise.m
-%     plotData.m
-%     gradientDescent.m
-%     computeCost.m
+%     warmUpExercise.m          ## Done
+%     plotData.m                ## Done
+%     gradientDescent.m         ## Done
+%     computeCost.m             ## Done
 %     gradientDescentMulti.m
 %     computeCostMulti.m
 %     featureNormalize.m
