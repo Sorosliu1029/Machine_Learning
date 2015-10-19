@@ -69,7 +69,7 @@ nn_params = [Theta1(:) ; Theta2(:)];
 %  first so that it will be easier for you to debug. Later, in part 4, you
 %  will get to implement the regularized cost.
 %
-fprintf('\nFeedforward Using Neural Network ...\n')
+fprintf('\nFeedforward Using Neural Network ...\n');
 
 % Weight regularization parameter (we set this to 0 here).
 lambda = 0;
@@ -88,7 +88,7 @@ pause;
 %  continue to implement the regularization with the cost.
 %
 
-fprintf('\nChecking Cost Function (w/ Regularization) ... \n')
+fprintf('\nChecking Cost Function (w/ Regularization) ... \n');
 
 % Weight regularization parameter (we set this to 1 here).
 lambda = 1;
