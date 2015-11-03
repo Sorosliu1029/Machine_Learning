@@ -20,12 +20,13 @@ idx = zeros(size(X,1), 1);
 %
 % Note: You can use a for-loop over the examples to compute this.
 %
-
-
-
-
-
-
+m = size(X, 1);
+for i = 1:m
+    sample = X(i,:);
+    diff = repmat(sample, K, 1) - centroids;
+    distance = sum((diff .^ 2), 2);
+    [M, idx(i)] = min(distance);
+end
 
 % =============================================================
 
